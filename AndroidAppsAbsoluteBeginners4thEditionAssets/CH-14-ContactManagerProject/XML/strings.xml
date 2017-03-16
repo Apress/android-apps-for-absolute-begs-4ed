@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQLiteProvider</string>
+    <string name="add_name">Add Contact Name</string>
+    <string name="edit_name">Edit Contact Name</string>
+    <string name="list_names">List Contact Names</string>
+    <string name="action_settings">Settings</string>
+</resources>

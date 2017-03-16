@@ -1,0 +1,102 @@
+<!DOCTYPE squeeze_project>
+<Project StartOnLoad="False" Version="6.0">
+    <Job Name="Job: Nov 25 2016, 7:52 PM" OutputDirectory="">
+        <Filter Name="Auto Crop Preserve Color">
+            <FilterSetting Name="Crop">
+                <AspectRatio Value="Auto Cropping"/>
+                <FloatRatio Value="0.000000000000e+000"/>
+                <Top Value="0"/>
+                <Bottom Value="0"/>
+                <Left Value="0"/>
+                <Right Value="0"/>
+            </FilterSetting>
+            <FilterSetting Name="Preserve Color">
+            </FilterSetting>
+        </Filter>
+        <Source FileName="C:\Terragen4\1080temp.0001.tif" OutputDirectory="" WatchFolder="False">
+            <DisplayAspectRatio Value="1.77778"/>
+            <MarkerList>
+                <Marker>
+                    <TimeStamp Scale="10000000" Value="20000000"/>
+                    <Type Value="Thumbnail"/>
+                    <Name Value=""/>
+                </Marker>
+            </MarkerList>
+            <Output DefaultName="M4V_iPad-Apple_TV_1080p.spfx" Description="For the iPad with Retina display and Apple TV supporting 1080p resolutions. AVC High Profilie.
+Video: MC H.264, 1:1 fps, 1920x1080, Maintain aspect ratio" FavWorkflow="" Guid="f80f1e61-1eff-4eed-a108-41c94cf71c13" Id="164866488" IsLite="False" IsMBR="False" Modified="" Name="Android_1080p" OutputFormat="MP4OutputFormat" SubOutputFormat="None" UsingCustomFilter="True" Version="6.0" Workflow="Devices\Apple i-Devices">
+                <EncryptAdaptiveStreamingFragments Value="False"/>
+                <EncryptAdaptiveStreamingFragmentsKeyFileLocation Value=""/>
+                <EncryptAdaptiveStreamingFragmentsDestinationRootLocation Value=""/>
+                <AdaptiveStreamingIncludeAudioOnly Value="True"/>
+                <IncludeFullLengthStreamsTag Value="True"/>
+                <CanBeResetToDefaultSettings Value="True"/>
+                <CMSName Value="1080temp.0001"/>
+                <FileName Value="C:\Terragen4\1080temp.0001_Android_1080p.m4v"/>
+                <VideoFileName Value=""/>
+                <AudioFileName Value=""/>
+                <OutputFrameRateCanExceedInputFrameRate Value="False"/>
+                <GenerateThumbnailBeforeWatermark Value="False"/>
+                <StoryBoardThumNailWidth Value="-1"/>
+                <StoryBoardThumNailHeight Value="-1"/>
+                <UsingCustomFileName Value="False"/>
+                <OutputExt Value="m4v"/>
+                <OutputAudExt Value=""/>
+                <OutputPrefix Value=""/>
+                <OutputSuffix Value=""/>
+                <UsePrefix Value="True"/>
+                <UseSuffix Value="True"/>
+                <Action Value="Done"/>
+                <State Value="Compressed"/>
+                <EncodeVideo Value="True"/>
+                <EncodeAudio Value="False"/>
+                <UsePreFilter Value="True"/>
+                <UsePlaybackConfiguration Value="False"/>
+                <UseFilesizeConstraint Value="False"/>
+                <FileSizeConstraint Value="0"/>
+                <AdjustForAudioCodecPadding Value="True"/>
+                <AddHintTrack Value="False"/>
+                <InOutPointsLocallyAssigned Value="False"/>
+                <InOutPointsEnable Value="False"/>
+                <Notifications>
+                </Notifications>
+                <AudioCompressor codec="SMI AAC ">
+                    <DataRate Value="160000"/>
+                    <SampleRate Value="48000"/>
+                    <SampleSize Value="16"/>
+                    <ChannelMode Value="ChannelModeStereo"/>
+                    <SubOutputFormat Value="None"/>
+                    <ExtendedPluginSettings>
+                    </ExtendedPluginSettings>
+                </AudioCompressor>
+                <VideoCompressor codec="MCptH264">
+                    <DataRate Value="2000000"/>
+                    <FrameRate Value="-1"/>
+                    <OutputSize Height="1080" Width="1920"/>
+                    <MaintainSourceAspectRatioEnable Value="True"/>
+                    <LetterBoxOrPillarEnable Value="False"/>
+                    <FrameSizeSameAsSourceEnable Value="False"/>
+                    <BitRateMode Value="BitRateModeTwoPassVBR"/>
+                    <KeyFrameRateEnable Value="True"/>
+                    <KeyFrameRate Value="10"/>
+                    <KeyFrameRateUnits Value="Seconds"/>
+                    <AutoKeyFrameEnable Value="True"/>
+                    <AutoKeyFrameSensitivity Value="50"/>
+                    <MaxDataRatePercentEnable Value="True"/>
+                    <MaxDataRatePercent Value="100"/>
+                    <ExtendedPluginSettings>
+                        <CQQuality Value="Medium"/>
+                        <Performance Value="10"/>
+                        <InterlaceMode Value="Progressive"/>
+                        <FieldOrder Value="Top Field First"/>
+                        <DropFrameTimeCode Value="False"/>
+                        <PixelAspectRatio Value="Square Pixels"/>
+                        <Profile Value="High"/>
+                        <IDRRate Value="1"/>
+                        <BlackNormalizationLevel Value="True"/>
+                        <ColorRangeAndCoeffients Value="Range 16-235, ITU-R Rec. BT.470-2"/>
+                    </ExtendedPluginSettings>
+                </VideoCompressor>
+            </Output>
+        </Source>
+    </Job>
+</Project>

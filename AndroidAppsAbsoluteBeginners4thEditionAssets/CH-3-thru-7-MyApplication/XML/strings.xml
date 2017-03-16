@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_message">Hello World!</string>
+    <string name="app_button">Upgrade App</string>
+    <string name="app_checkbox">Hello Universe</string>
+    <string name="app_message2">Hello Universe!</string>
+    <string name="app_button2">Downgrade App</string>
+    <string name="app_checkbox2">Hello World</string>
+    <string name="image_desc_world">Hello World Image</string>
+    <string name="image_desc_galaxy">Hello Universe Image</string>
+    <string name="title_activity_universe">Hello Universe</string>
+</resources>

@@ -1,0 +1,179 @@
+<!DOCTYPE squeeze_project>
+<Project StartOnLoad="False" Version="6.0">
+    <Job Name="Job: Nov 25 2016, 7:52 PM" OutputDirectory="">
+        <Filter Name="Auto Crop Preserve Color">
+            <FilterSetting Name="Crop">
+                <AspectRatio Value="Auto Cropping"/>
+                <FloatRatio Value="0.000000000000e+000"/>
+                <Top Value="0"/>
+                <Bottom Value="0"/>
+                <Left Value="0"/>
+                <Right Value="0"/>
+            </FilterSetting>
+            <FilterSetting Name="Preserve Color">
+            </FilterSetting>
+        </Filter>
+        <Source FileName="C:\Terragen4\1080temp.0001.tif" OutputDirectory="" WatchFolder="False">
+            <DisplayAspectRatio Value="1.77778"/>
+            <MarkerList>
+                <Marker>
+                    <TimeStamp Scale="10000000" Value="20000000"/>
+                    <Type Value="Thumbnail"/>
+                    <Name Value=""/>
+                </Marker>
+            </MarkerList>
+            <Output DefaultName="HEVC_3300Kbps_1080p.spfx" Description="HEVC video for progressive download on broadband network connections.
+Video: x265, 1:1 fps, 1920x1080, Maintain aspect ratio" FavWorkflow="" Guid="b5125841-4d3e-4547-a023-e3e96fb5201c" Id="164866488" IsLite="False" IsMBR="False" Modified="" Name="HEVC_3300Kbps_1080p" OutputFormat="MP4OutputFormat" SubOutputFormat="None" UsingCustomFilter="True" Version="6.0" Workflow="Workflow\Web\Progressive Download\HEVC">
+                <EncryptAdaptiveStreamingFragments Value="False"/>
+                <EncryptAdaptiveStreamingFragmentsKeyFileLocation Value=""/>
+                <EncryptAdaptiveStreamingFragmentsDestinationRootLocation Value=""/>
+                <AdaptiveStreamingIncludeAudioOnly Value="True"/>
+                <IncludeFullLengthStreamsTag Value="True"/>
+                <CMSName Value="1080temp.0001"/>
+                <FileName Value="C:\Terragen4\1080temp.0001_HEVC_3300Kbps_1080p.mp4"/>
+                <VideoFileName Value=""/>
+                <AudioFileName Value=""/>
+                <OutputFrameRateCanExceedInputFrameRate Value="False"/>
+                <GenerateThumbnailBeforeWatermark Value="False"/>
+                <StoryBoardThumNailWidth Value="-1"/>
+                <StoryBoardThumNailHeight Value="-1"/>
+                <UsingCustomFileName Value="False"/>
+                <OutputExt Value=""/>
+                <OutputAudExt Value=""/>
+                <OutputPrefix Value=""/>
+                <OutputSuffix Value=""/>
+                <UsePrefix Value="True"/>
+                <UseSuffix Value="True"/>
+                <Action Value="Done"/>
+                <State Value="Compressed"/>
+                <EncodeVideo Value="True"/>
+                <EncodeAudio Value="False"/>
+                <UsePreFilter Value="True"/>
+                <UsePlaybackConfiguration Value="False"/>
+                <UseFilesizeConstraint Value="False"/>
+                <FileSizeConstraint Value="0"/>
+                <AdjustForAudioCodecPadding Value="True"/>
+                <AddHintTrack Value="False"/>
+                <InOutPointsLocallyAssigned Value="False"/>
+                <InOutPointsEnable Value="False"/>
+                <Notifications>
+                </Notifications>
+                <AudioCompressor codec="SMI AAC ">
+                    <DataRate Value="192000"/>
+                    <SampleRate Value="44100"/>
+                    <SampleSize Value="16"/>
+                    <ChannelMode Value="ChannelModeStereo"/>
+                    <SubOutputFormat Value="None"/>
+                    <ExtendedPluginSettings>
+                    </ExtendedPluginSettings>
+                </AudioCompressor>
+                <VideoCompressor codec="x265H265">
+                    <DataRate Value="3068000"/>
+                    <FrameRate Value="-1"/>
+                    <OutputSize Height="1080" Width="1920"/>
+                    <MaintainSourceAspectRatioEnable Value="True"/>
+                    <LetterBoxOrPillarEnable Value="False"/>
+                    <FrameSizeSameAsSourceEnable Value="False"/>
+                    <BitRateMode Value="BitRateModeOnePassVBR"/>
+                    <KeyFrameRate Value="10"/>
+                    <KeyFrameRateUnits Value="Seconds"/>
+                    <AutoKeyFrameEnable Value="True"/>
+                    <AutoKeyFrameSensitivity Value="40"/>
+                    <MaxDataRatePercentEnable Value="True"/>
+                    <MaxDataRatePercent Value="150"/>
+                    <ExtendedPluginSettings>
+                        <profile Value="Main/Main10"/>
+                        <level Value="4.0"/>
+                        <tier Value="Main"/>
+                        <rateControlMode Value="Constant Rate Factor"/>
+                        <qp Value="28"/>
+                        <bStrictCbr Value="False"/>
+                        <qgSize Value="64"/>
+                        <preset Value="Medium"/>
+                        <tune Value="None"/>
+                        <decodedPictureHashSEI Value="None"/>
+                        <bEnableTemporalSubLayers Value="False"/>
+                        <levelIdc Value="Auto"/>
+                        <interlaceMode Value="Progressive"/>
+                        <bRepeatHeaders Value="False"/>
+                        <bEnableAccessUnitDelimiters Value="False"/>
+                        <bEmitHRDSEI Value="False"/>
+                        <maxCUSize Value="64"/>
+                        <tuQTMaxInterDepth Value="1"/>
+                        <tuQTMaxIntraDepth Value="1"/>
+                        <rdoqLevel Value="0"/>
+                        <bOpenGOP Value="True"/>
+                        <keyframeMin Value="0"/>
+                        <keyframeMax Value="250"/>
+                        <maxNumReferences Value="3"/>
+                        <bAllowNonConformance Value="False"/>
+                        <bAnnexB Value="True"/>
+                        <bFrameAdaptive Value="Trellis"/>
+                        <bframes Value="4"/>
+                        <bBPyramid Value="True"/>
+                        <lookaheadDepth Value="20"/>
+                        <lookaheadSlices Value="0"/>
+                        <bFrameBias Value="0"/>
+                        <bEnableConstrainedIntra Value="False"/>
+                        <bEnableStrongIntraSmoothing Value="True"/>
+                        <searchMethod Value="HEX"/>
+                        <subpelRefine Value="2"/>
+                        <searchRange Value="57"/>
+                        <maxNumMergeCand Value="2"/>
+                        <limitReferences Value="Depth"/>
+                        <bEnableWeightedPred Value="True"/>
+                        <bEnableWeightedBiPred Value="False"/>
+                        <bEnableAMP Value="False"/>
+                        <maxTUSize Value="32"/>
+                        <bEnableRectInter Value="False"/>
+                        <bEnableEarlySkip Value="False"/>
+                        <rdPenalty Value="Disable"/>
+                        <analysisMode Value="Off"/>
+                        <bEnableSignHiding Value="True"/>
+                        <bEnableTransformSkip Value="False"/>
+                        <bEnableTSkipFast Value="False"/>
+                        <noiseReductionIntra Value="0"/>
+                        <noiseReductionInter Value="0"/>
+                        <bEnableLoopFilter Value="True"/>
+                        <deblockingFilterTCOffset Value="0"/>
+                        <deblockingFilterBetaOffset Value="0"/>
+                        <bEnableSAO Value="True"/>
+                        <bSaoNonDeblocked Value="False"/>
+                        <bEnableFastIntra Value="False"/>
+                        <bIntraInBFrames Value="True"/>
+                        <bLossless Value="False"/>
+                        <bCULossless Value="False"/>
+                        <qCompress Value="6.000000000000e-001"/>
+                        <ipFactor Value="1.399999976158e+000"/>
+                        <pbFactor Value="1.299999952316e+000"/>
+                        <qpStep Value="4"/>
+                        <aqMode Value="Auto"/>
+                        <aqStrength Value="1.000000000000e+000"/>
+                        <vbvBufferSize Value="0"/>
+                        <vbvMaxBitrate Value="0"/>
+                        <vbvBufferInit Value="9.000000000000e-001"/>
+                        <cuTree Value="True"/>
+                        <rfConstantMax Value="0.000000000000e+000"/>
+                        <rfConstantMin Value="0.000000000000e+000"/>
+                        <aspectRatioIdc Value="False"/>
+                        <sarWidth Value="0"/>
+                        <sarHeight Value="0"/>
+                        <bEnableOverscanInfoPresentFlag Value="False"/>
+                        <bEnableOverscanAppropriateFlag Value="False"/>
+                        <bEnableVideoSignalTypePresentFlag Value="False"/>
+                        <videoFormat Value="Unspecified"/>
+                        <bEnableVideoFullRangeFlag Value="False"/>
+                        <bEnableColorDescriptionPresentFlag Value="False"/>
+                        <bEnableChromaLocInfoPresentFlag Value="False"/>
+                        <chromaSampleLocTypeTopField Value="0"/>
+                        <chromaSampleLocTypeBottomField Value="0"/>
+                        <bEnableWavefront Value="True"/>
+                        <bDistributeModeAnalysis Value="False"/>
+                        <bDistributeMotionEstimation Value="False"/>
+                        <frameNumThreads Value="1"/>
+                    </ExtendedPluginSettings>
+                </VideoCompressor>
+            </Output>
+        </Source>
+    </Job>
+</Project>
